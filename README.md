@@ -1,4 +1,4 @@
-![LineageOS](https://lineageos.org/images/logo-2.png)
+![AospExtended](http://i.imgur.com/ER7PzVx.png)
 # Android One 
 The three Android One devices (codenamed _"sprout"_) are low-range smartphones from Google with Micromax, Spice and Karbonn.
 
