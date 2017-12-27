@@ -74,6 +74,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/factory_init.rc:root/factory_init.rc \
     $(LOCAL_PATH)/rootdir/root/ueventd.sprout.rc:root/ueventd.sprout.rc \
     $(LOCAL_PATH)/rootdir/root/init.sprout.usb.rc:root/init.sprout.usb.rc \
+    device/google/sprout-common/prebuilt/zImage:kernel
 
 # Symbols for Sprout
 PRODUCT_PACKAGES += \
@@ -82,6 +83,22 @@ PRODUCT_PACKAGES += \
 # Doze
 PRODUCT_PACKAGES += \
     Doze
+
+# Chromium
+PRODUCT_PACKAGES += \
+    Chromium
+
+# TZControl
+PRODUCT_PACKAGES += \
+    TZControl
+
+# Sony Walkman Music Player
+PRODUCT_PACKAGES += \
+    SonyWalkman
+
+# Substratum
+PRODUCT_PACKAGES += \
+   Substratum
 
 PRODUCT_PACKAGES += \
     meizupshelper
